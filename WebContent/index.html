@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>List Of Packages</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+	<div class="header">
+		<input type="text" id="searchKey" />
+		<button id="btnSearch">Search</button>
+		<button id="btnAdd">New Package</button>
+	</div>
+
+
+	<div class="leftArea">
+		<ul id="packageList"></ul>
+	</div>
+
+	<form id="packageForm">
+
+		<div class="mainArea">
+
+			<label>Id:</label> <input id="packageId" name="id" type="text"
+				disabled /> <label>Name:</label> <input type="text" id="name"
+				name="name" required> <label>Description:</label>
+			<textarea id="description" name="description"></textarea>
+
+
+			<label>Products Available</label> <input type="checkbox" class="cb"
+				name="products" value="10.99"> ProductA<br> <input
+				type="checkbox" class="cb" name="products" value="12.99">
+			ProductB<br> <input type="checkbox" class="cb" name="products"
+				value="14.99"> ProductC<br>
+			<br> <label>Price</label> <input type="text" id="totalcost"
+				value="">
+
+		</div>
+	</form>
+
+	<br>
+
+	<button id="btnSave">Save</button>
+	<button id="btnDelete">Delete</button>
+
+
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

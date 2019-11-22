@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JagexCodingExercise
+Bundle-SymbolicName: JagexCodingExercise
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: JagexCodingExercise.jar,
+ deepikagali/Downloads/javax.xml.bind.jar
+Export-Package: com.packageExercise
